@@ -1,14 +1,10 @@
 /* FONT IMPORT */
-
 /* font-family: 'Pacifico', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
 /* font-family: 'IBM Plex Serif', serif; */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap');
 
-
 /* HTML ELEMENTS */
-
 html, body {
   margin: 0;
   padding: 0;
@@ -26,7 +22,6 @@ p {
 }
 
 /* TEXT ALIGNMENT  */
-
 .text-cntr {
   text-align: center;
 }
@@ -40,7 +35,6 @@ p {
 }
 
 /* PADDING STYLE  */
-
 .pad1 {
   padding: 1.5rem 25%;
 }
@@ -54,7 +48,6 @@ p {
 }
 
 /* FONT STYLE  */
-
 .font1 {
   font-family: 'Pacifico', cursive;
   font-size: 1.5rem;
@@ -85,15 +78,12 @@ p, .font4 {
 }
 
 /* WIDTH STYLE */
-
 /* WHOLE PAGE SECTION */
-
 .whole-page {
-    background-color: white;
+  background-color: white;
 }
 
 /* NAVIGATION STYLE  */
-
 .nav-item {
   text-align: center;
 }
@@ -120,7 +110,6 @@ p, .font4 {
 }
 
 /* Introduction Section */
-
 #Intro {
   margin-top: 1.2rem;
   margin-bottom: 2rem;
@@ -158,14 +147,13 @@ p, .font4 {
 .caro-img img {
   opacity: 0.7;
 }
-/* About Us */
 
+/* About Us */
 div#about-pad.pad2 {
   padding: 7% 15%;
 }
 
 /* Pricing Section  */
-
 .price-bg {
   background-color: black;
 }
@@ -185,9 +173,9 @@ h5#price-font.font3 {
 }
 
 .price-font {
-  font-family: 'arial', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding: 1rem 0;
 }
 
@@ -196,3 +184,30 @@ h5#price-font.font3 {
 }
 
 /* Contact Us Section  */
+
+.contact-title {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: bolder;
+}
+
+.contact-font {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.fa-lg {
+  padding: 0.5rem 1rem;
+}
+
+.contact-social {
+  padding: 0.5rem 1rem;
+}
+
+.pb-6 {
+  padding-bottom: 10rem;
+}
