@@ -276,3 +276,68 @@ h5#price-font.font3 {
   }
 
 }
+
+@media (max-width: 576px) {
+
+  .navbar-nav {
+    padding: 2rem 25%;
+  }
+
+  .pb-6 {
+    padding-bottom: 3rem !important;
+  }
+
+    #welcome-img {
+      bottom: 70px;
+    }
+
+#affordable-img, #chair-img {
+    bottom: 40px;
+  }
+
+  .btn-font.btn-lg {
+    font-size: 0.8rem;
+  }
+
+  div#about-pad.pad2 {
+    padding: 7% 10%;
+  }
+
+  h5.font3 {
+    font-size: 2rem;
+  }
+
+  p.font4 {
+    font-size: 0.9rem;
+  }
+
+  p.font2 {
+    font-size: 1rem;
+  }
+
+  .img-intro {
+    height: 20rem;
+  }
+
+  #contact-info {
+  padding: 2rem 5% !important;
+  }
+
+  p.contact-font {
+    font-size: 1rem;
+  }
+
+  div.col-1.contact-social {
+    padding-left: 4.2rem;
+  }
+
+  #contact-social-1 {
+    padding: 0 2rem;
+  }
+
+  iframe {
+    width: 400px !important;
+    height: 350px !important;
+  }
+
+}
