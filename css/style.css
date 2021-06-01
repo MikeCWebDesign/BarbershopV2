@@ -1,0 +1,198 @@
+/* FONT IMPORT */
+
+/* font-family: 'Pacifico', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* font-family: 'IBM Plex Serif', serif; */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap');
+
+
+/* HTML ELEMENTS */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  padding: 0 1rem;
+}
+
+p {
+  padding: 1rem;
+}
+
+/* TEXT ALIGNMENT  */
+
+.text-cntr {
+  text-align: center;
+}
+
+.text-just {
+  text-align: justify;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* PADDING STYLE  */
+
+.pad1 {
+  padding: 1.5rem 25%;
+}
+
+.pad2 {
+  padding: 7% 25%;
+}
+
+.pad3 {
+  padding: 0 15%;
+}
+
+/* FONT STYLE  */
+
+.font1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+}
+
+.font2 {
+  font-family: 'Raleway', cursive;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.font3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+}
+
+p, .font4 {
+  font-family: 'Raleway', cursive;
+  font-size: 1.5rem;
+}
+
+.font5 {
+  font-family: 'IBM Plex Serif', serif;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* WIDTH STYLE */
+
+/* WHOLE PAGE SECTION */
+
+.whole-page {
+    background-color: white;
+}
+
+/* NAVIGATION STYLE  */
+
+.nav-item {
+  text-align: center;
+}
+
+.nav-link {
+  padding: 1rem 0;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.border1 {
+  border: 3px solid #fff;
+  padding: 9px;
+}
+
+.navbar-nav {
+  padding: 2rem 45%;
+}
+
+.bpdpad {
+  padding: 1.5rem 5rem 0 0;
+}
+
+/* Introduction Section */
+
+#Intro {
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.img-intro {
+  padding: 0.5rem 0;
+  height: 60rem;
+  width: 100%;
+}
+
+.carousel-caption {
+  /* top: 100px; */
+  bottom: 45%;
+}
+
+.btn-dark {
+  background-color: black;
+}
+
+.btn-dark:hover {
+  color: black;
+  background-color: white;
+}
+
+.btn-font {
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+}
+
+.caro-img {
+  background-color: black;
+}
+
+.caro-img img {
+  opacity: 0.7;
+}
+/* About Us */
+
+div#about-pad.pad2 {
+  padding: 7% 15%;
+}
+
+/* Pricing Section  */
+
+.price-bg {
+  background-color: black;
+}
+
+h5#price-font.font3 {
+  color: white;
+}
+
+.brdbot {
+  border-bottom: 2px solid white;
+}
+
+.Pricing-Title {
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+.price-font {
+  font-family: 'arial', sans-serif;
+  color: white;
+  font-size: 1.4rem;
+  padding: 1rem 0;
+}
+
+.Pricing-Padding {
+  padding: 7% 0 2rem;
+}
+
+/* Contact Us Section  */
