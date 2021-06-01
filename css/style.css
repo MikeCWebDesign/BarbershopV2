@@ -341,3 +341,36 @@ h5#price-font.font3 {
   }
 
 }
+
+@media (max-width: 414px) {
+
+  p.font4 {
+    font-size: 0.8rem;
+  }
+
+  .border1 {
+    padding: 0;
+  }
+
+  p.font2 {
+    font-size: 0.8rem;
+  }
+
+  .bpdpad {
+    padding-right: 0;
+  }
+
+  .font1{
+  font-size: 1rem;
+  }
+
+  iframe {
+    width: 350px !important;
+    height: 300px !important;
+  }
+
+  div.col-1.contact-social {
+    padding-left: 2.5rem;
+
+  }
+}
