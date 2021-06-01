@@ -211,3 +211,68 @@ h5#price-font.font3 {
 .pb-6 {
   padding-bottom: 10rem;
 }
+
+.text-light {
+  font-family: 'Raleway', serif;
+}
+
+@media (max-width: 992px) {
+
+  #welcome-img {
+    bottom: 100px;
+  }
+
+  #chair-img {
+    bottom: 130px;
+  }
+
+  #affordable-img {
+    bottom: 90px;
+  }
+
+  p.Pricing-Title {
+    font-size: 1.3rem;
+  }
+
+  p.text-just {
+    font-size: 1rem;
+  }
+
+  .img-intro {
+    height: 35rem;
+  }
+
+  h4.font5 {
+    font-size: 1.4rem;
+  }
+
+  p.price-font {
+    font-size: 1rem;
+
+  }
+
+  div#map.col-xl-6.col-lg-12.text-right {
+    text-align: center;
+  }
+
+  #contact-info {
+    text-align: center;
+    padding: 2rem 25% !important;
+  }
+
+  #contact-social-1 {
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+
+  #contact-social-2 {
+    padding-left: 20%;
+    padding-right: 15%;
+  }
+
+  #title-social {
+    padding-left: 25px;
+    padding-right: 0;
+  }
+
+}
